@@ -4,7 +4,7 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -14,4 +14,11 @@
         completions."
     </string>
     <string name="action_sign_up_short">Sign Up</string>
+    <string name="action_sign_up">Register</string>
+    <string name="clickable_text_signup"><u>Sign Up a new User</u></string>
+    <string name="activity_signup">Register New User</string>
+    <string name="clickable_text_login"><u>Go back to Login</u></string>
+    <string name="mainactivity_label" />
+    <string name="welcome_textview">Welcome, logged in user!</string>
+    <string name="action_logout">Log Out</string>
 </resources>

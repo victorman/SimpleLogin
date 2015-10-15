@@ -16,15 +16,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/app_name" >
+        <activity android:name=".DispatchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".SignupActivity"
+            android:label="@string/activity_signup"
+            android:parentActivityName=".LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="se.frand.app.simplelogin.LoginActivity" />
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/mainactivity_label"/>
     </application>
 
 </manifest>
